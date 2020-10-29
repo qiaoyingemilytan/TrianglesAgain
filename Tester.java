@@ -5,5 +5,6 @@ public class Tester{
     System.out.println(a.getX());
     System.out.println(a.getY());
     System.out.println(a.distanceTo(b));
+    System.out.println(a.equals(b));
   }
 }
