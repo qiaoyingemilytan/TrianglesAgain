@@ -11,5 +11,6 @@ public class Tester{
     System.out.println(a1.getPerimeter());
     System.out.println(a1.getArea());
     System.out.println(a1.classify());
+    System.out.println(a1.toString());
   }
 }
