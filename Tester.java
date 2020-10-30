@@ -9,5 +9,6 @@ public class Tester{
     System.out.println(a.distanceTo(b));
     System.out.println(a.equals(b));
     System.out.println(a1.getPerimeter());
+    System.out.println(a1.getArea());
   }
 }
