@@ -18,7 +18,7 @@ public class Triangle{
   }
 
   public double getArea(){
-    return Math.sqrt(getPerimeter() * (getPerimeter() - v1.distanceTo(v2)) * (getPerimeter() - v2.distanceTo(v3)) * (getPerimeter() - v3.distanceTo(v1)));
+    return Math.sqrt(getPerimeter()/2 * (getPerimeter()/2 - v1.distanceTo(v2)) * (getPerimeter()/2 - v2.distanceTo(v3)) * (getPerimeter()/2 - v3.distanceTo(v1)));
   }
 
   public String classify(){
